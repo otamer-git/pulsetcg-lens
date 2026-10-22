@@ -1,1 +1,10 @@
-https://jhknffgpmpbbgdoldbdaaaeacodiefdo.chromiumapp.org/
+{
+  "client_id": "https://otamer-git.github.io/pulsetcg-lens/client-metadata.json",
+  "client_name": "Card Lens for eBay",
+  "client_uri": "https://github.com/otamer-git/pulsetcg-lens",
+  "redirect_uris": ["https://jhocigipgdhkaamljjipabdlkblconnb.chromiumapp.org/"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "market:read portfolio:read offline_access"
+}
