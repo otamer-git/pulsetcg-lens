@@ -3,7 +3,10 @@
   "client_name": "PulseTCG Lens",
   "client_uri": "https://github.com/otamer-git/pulsetcg-lens",
   "policy_uri": "https://otamer-git.github.io/pulsetcg-lens/privacy.html",
-  "redirect_uris": ["https://jhocigipgdhkaamljjipabdlkblconnb.chromiumapp.org/"],
+  "redirect_uris": [
+    "https://neaplknhhmaohdimmcfgehlmlaomhieb.chromiumapp.org/",
+    "https://jhocigipgdhkaamljjipabdlkblconnb.chromiumapp.org/"
+  ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
