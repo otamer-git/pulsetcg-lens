@@ -1,7 +1,8 @@
 {
   "client_id": "https://otamer-git.github.io/pulsetcg-lens/client-metadata.json",
-  "client_name": "Pulsetcg Lens for eBay",
+  "client_name": "PulseTCG Lens",
   "client_uri": "https://github.com/otamer-git/pulsetcg-lens",
+  "policy_uri": "https://otamer-git.github.io/pulsetcg-lens/privacy.html",
   "redirect_uris": ["https://jhocigipgdhkaamljjipabdlkblconnb.chromiumapp.org/"],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
