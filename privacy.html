@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PulseTCG Lens privacy policy</title>
+    <meta name="description" content="What the PulseTCG Lens browser extension does with your data." />
+    <style>
+      :root {
+        --bg: #f8fafc;
+        --surface: #ffffff;
+        --text: #1e293b;
+        --muted: #64748b;
+        --border: #e2e8f0;
+        --accent: #4f46e5;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b1220;
+          --surface: #111a2e;
+          --text: #e6edf7;
+          --muted: #94a3b8;
+          --border: #1f2a40;
+          --accent: #818cf8;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 16px 64px;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 30px;
+        line-height: 1.2;
+      }
+      h2 {
+        margin: 32px 0 8px;
+        font-size: 19px;
+      }
+      p,
+      li {
+        margin: 0 0 10px;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .summary {
+        margin-top: 24px;
+        padding: 16px 18px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--surface);
+      }
+      .summary p:last-child {
+        margin-bottom: 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      code {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>PulseTCG Lens privacy policy</h1>
+      <p class="meta">Effective 23 October 2026</p>
+
+      <div class="summary">
+        <p>
+          PulseTCG Lens is a browser extension that shows PulseTCG market prices and your PulseTCG
+          collection on eBay card listings. It has no servers of its own, collects no analytics,
+          shows no ads, and never sells or shares your data. Everything it stores stays in your
+          browser.
+        </p>
+        <p>PulseTCG Lens is not affiliated with PulseTCG or eBay.</p>
+      </div>
+
+      <h2>What the extension reads</h2>
+      <ul>
+        <li>
+          <strong>eBay listing pages.</strong> On eBay item pages (ebay.co.uk and ebay.com), it reads
+          the listing you're viewing: the title, item specifics such as card name, number, set,
+          grade and language, the price, postage, and any coupon or Best Offer text. It reads
+          nothing else on eBay, and doesn't run on any other website.
+        </li>
+        <li>
+          <strong>Your PulseTCG account, after you sign in.</strong> When you choose
+          <em>Sign in with PulseTCG</em>, you approve read-only access on PulseTCG's own sign-in
+          page. The extension then reads market prices and the holdings in your PulseTCG portfolios
+          (quantities, what you paid and portfolio names) to show whether you own the card on a
+          listing.
+        </li>
+      </ul>
+
+      <h2>What it sends, and to whom</h2>
+      <ul>
+        <li>
+          <strong>PulseTCG</strong> (<code>pulsetcg.io</code> and <code>mcp.pulsetcg.io</code>). To
+          find the product and its price, the extension sends PulseTCG search terms built from the
+          listing (the card name, number and set) and PulseTCG product ids. To check ownership, it
+          sends the product's name to search your holdings. Requests are made with your PulseTCG
+          sign-in, so PulseTCG's own
+          <a href="https://pulsetcg.io/privacy">privacy policy</a> also applies to them.
+        </li>
+        <li>
+          <strong>Frankfurter</strong> (<code>api.frankfurter.app</code>), a public exchange-rate
+          service. To convert prices between pounds and dollars, the extension sends it only a
+          currency code, such as GBP.
+        </li>
+      </ul>
+      <p>It sends nothing to eBay, and nothing to the extension's developer.</p>
+
+      <h2>What it stores in your browser</h2>
+      <p>
+        All of this is kept in the extension's own browser storage, on your device. It isn't synced
+        anywhere.
+      </p>
+      <ul>
+        <li>Your PulseTCG sign-in tokens, so you stay signed in.</li>
+        <li>Your settings, such as whether to include postage.</li>
+        <li>Matched products and prices, for up to 30 minutes, so revisiting a listing is quick.</li>
+        <li>Holdings looked up for a product, for up to 10 minutes.</li>
+        <li>Exchange rates, for up to 12 hours.</li>
+        <li>Any product you picked by hand with <em>Not this card?</em>, for that listing.</li>
+      </ul>
+
+      <h2>Your choices</h2>
+      <ul>
+        <li>
+          <strong>Sign out</strong> in the extension's settings to delete your sign-in tokens and
+          revoke the extension's access at PulseTCG.
+        </li>
+        <li>
+          <strong>Remove the extension</strong> to delete everything it has stored. Chrome deletes
+          an extension's storage when it's removed.
+        </li>
+        <li>
+          You can also review or revoke the extension's access from your account on PulseTCG.
+        </li>
+      </ul>
+
+      <h2>Chrome Web Store User Data Policy</h2>
+      <p>
+        The use of information received through this extension adheres to the
+        <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq"
+          >Chrome Web Store User Data Policy</a
+        >, including the Limited Use requirements. Data is used only to show prices and your
+        collection on the listing you're viewing.
+      </p>
+
+      <h2>Changes and contact</h2>
+      <p>
+        If this policy changes, the new version will be posted on this page with a new effective
+        date. Questions or concerns can be raised on the project's
+        <a href="https://github.com/otamer-git/pulsetcg-lens/issues">GitHub issues page</a>.
+      </p>
+    </main>
+  </body>
+</html>
